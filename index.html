@@ -16,12 +16,13 @@
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
 
     <!-- Configure SystemJS -->
+    <!--for module loading -->
     <script>
         System.config({
             packages: {
                 app: {
                     format: 'register',
-                    defaultExtension: 'js'
+                    defaultExtension: 'js' //tags on ending js an all imports in main.ts
                 }
             }
         });
@@ -30,7 +31,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <my-app>Loading...</my-app>
+    <my-app>blub...</my-app>
 </div>
 </body>
 </html>
